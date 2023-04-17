@@ -50,31 +50,34 @@
 
     <!-- form -->
     <form class="was-validated">
-      <!-- first name -->
-      <div class="mb-3">
-        <label for="validationTextarea" class="form-label">First Name</label>
-        <textarea class="form-control" id="validationTextarea" placeholder=""
-          required></textarea>
-        <div class="invalid-feedback">
-          Please enter your first name.
-        </div>
-      </div>
-      <!-- last name -->
-      <div class="mb-3">
-        <label for="validationTextarea" class="form-label">Last Name</label>
-        <textarea class="form-control" id="validationTextarea" placeholder=""
-          required></textarea>
-        <div class="invalid-feedback">
-          Please enter your last name.
-        </div>
-      </div>
-      <!-- phone number -->
-      <div class="mb-3">
-        <label for="validationTextarea" class="form-label">Phone Number</label>
-        <textarea class="form-control" id="validationTextarea" placeholder="00000 000000"
-          required></textarea>
-        <div class="invalid-feedback">
-          Please enter your phone number so we can contact you for more details.
+      <div class="flex-container">
+        <div class="row">
+          <!-- first name -->
+          <div class="col-lg-4">
+            <label for="validationTextarea" class="form-label">First Name</label>
+            <textarea class="form-control" id="validationTextarea" placeholder="" required></textarea>
+            <div class="invalid-feedback">
+              Please enter your first name.
+            </div>
+          </div>
+          <!-- last name -->
+          <div class="col-lg-4">
+            <label for="validationTextarea" class="form-label">Last Name</label>
+            <textarea class="form-control" id="validationTextarea" placeholder="" required></textarea>
+            <div class="invalid-feedback">
+              Please enter your last name.
+            </div>
+          </div>
+
+
+          <!-- phone number -->
+          <div class="col-lg-4">
+            <label for="validationTextarea" class="form-label">Phone Number</label>
+            <textarea class="form-control" id="validationTextarea" placeholder="00000 000000" required></textarea>
+            <div class="invalid-feedback">
+              Please enter your phone number so we can contact you for more details.
+            </div>
+          </div>
         </div>
       </div>
       <!-- drop down selection -->
@@ -102,8 +105,11 @@
       </div>
       <!-- personalised section -->
       <div class="mb-3">
-        <label for="validationTextarea" class="form-label">If yes, please give detailed descriptions of the drinks you would like.</label>
-        <textarea class="form-control" id="validationTextarea" placeholder="For example: Poppies paradise- Passion fruit liquer, peach liquer, vodka, orange juice, cranberry juice and lemonade"
+        <label for="validationTextarea" class="form-label">If yes, please give detailed descriptions of the drinks
+          you
+          would like.</label>
+        <textarea class="form-control" id="validationTextarea"
+          placeholder="For example: Poppies paradise- Passion fruit liquer, peach liquer, vodka, orange juice, cranberry juice and lemonade"
           required></textarea>
         <div class="invalid-feedback">
           Please state what drinks you would like.
@@ -113,7 +119,9 @@
       <!-- terms & conditions -->
       <div class="form-check mb-3">
         <input type="checkbox" class="form-check-input" id="validationFormCheck1" required>
-        <label class="form-check-label" for="validationFormCheck1">Check this box if you are happy to be contacted on the given phone number.</label>
+        <label class="form-check-label" for="validationFormCheck1">Check this box if you are happy to be contacted
+          on
+          the given phone number.</label>
         <div class="invalid-feedback">Please select this box to continue.</div>
       </div>
       <!-- submit button -->
