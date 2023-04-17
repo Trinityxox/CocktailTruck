@@ -47,123 +47,75 @@
   <!-- this begins the main code -->
 
   <main>
-    <!-- first part of form -->
 
-    <form class="row g-3">
-      <!-- first name -->
-      <div class="col-md-4">
-        <label for="validationServer01" class="form-label">First name</label>
-        <input type="text" class="form-control is-valid" id="validationServer01" value="Mark" required>
-        <div class="valid-feedback">
-          Looks good!
-        </div>
-      </div>
-      <!-- second name -->
-      <div class="col-md-4">
-        <label for="validationServer02" class="form-label">Last name</label>
-        <input type="text" class="form-control is-valid" id="validationServer02" required>
-        <div class="valid-feedback">
-          Looks good!
-        </div>
-      </div>
-      <!-- username -->
-      <div class="col-md-4">
-        <label for="validationServer03" class="form-label">Username</label>
-          <input type="text" class="form-control is-invalid" id="validationServer03"
-            aria-describedby="inputGroupPrepend3 validationServerUsernameFeedback" required>
-          <div id="validationServerUsernameFeedback" class="invalid-feedback">
-            Please choose a username.
-          
-        </div>
-      </div>
-      <!-- city -->
-      <div class="col-md-6">
-        <label for="validationServer03" class="form-label">City</label>
-        <input type="text" class="form-control is-invalid" id="validationServer03"
-          aria-describedby="validationServer03Feedback" required>
-        <div id="validationServer03Feedback" class="invalid-feedback">
-          Please provide a valid city.
-        </div>
-      </div>
-      <!-- state -->
-      <div class="col-md-3">
-        <label for="validationServer04" class="form-label">State</label>
-        <select class="form-select is-invalid" id="validationServer04" aria-describedby="validationServer04Feedback"
-          required>
-          <option selected disabled value="">Choose...</option>
-          <option>...</option>
-        </select>
-        <div id="validationServer04Feedback" class="invalid-feedback">
-          Please select a valid state.
-        </div>
-      </div>
-      <!-- zip code -->
-      <div class="col-md-3">
-        <label for="validationServer05" class="form-label">Zip</label>
-        <input type="text" class="form-control is-invalid" id="validationServer05"
-          aria-describedby="validationServer05Feedback" required>
-        <div id="validationServer05Feedback" class="invalid-feedback">
-          Please provide a valid zip.
-        </div>
-      </div>
-    
-      <!-- submit button -->
-      <div class="col-12">
-        <button class="btn btn-primary" type="submit">Submit form</button>
-      </div>
-    </form>
-
-    <!-- second part of form -->
+    <!-- form -->
     <form class="was-validated">
-      <!-- single checkbox -->
-      <div class="form-check mb-3">
-        <input type="checkbox" class="form-check-input" id="validationFormCheck1" required>
-        <label class="form-check-label" for="validationFormCheck1">Check this checkbox</label>
-        <div class="invalid-feedback">Example invalid feedback text</div>
+      <!-- first name -->
+      <div class="mb-3">
+        <label for="validationTextarea" class="form-label">First Name</label>
+        <textarea class="form-control" id="validationTextarea" placeholder=""
+          required></textarea>
+        <div class="invalid-feedback">
+          Please enter your first name.
+        </div>
       </div>
-      <!-- double checkbox -->
-      <div class="form-check">
-        <input type="radio" class="form-check-input" id="validationFormCheck2" name="radio-stacked" required>
-        <label class="form-check-label" for="validationFormCheck2">Toggle this radio</label>
+      <!-- last name -->
+      <div class="mb-3">
+        <label for="validationTextarea" class="form-label">Last Name</label>
+        <textarea class="form-control" id="validationTextarea" placeholder=""
+          required></textarea>
+        <div class="invalid-feedback">
+          Please enter your last name.
+        </div>
       </div>
-      <div class="form-check mb-3">
-        <input type="radio" class="form-check-input" id="validationFormCheck3" name="radio-stacked" required>
-        <label class="form-check-label" for="validationFormCheck3">Or toggle this other radio</label>
-        <div class="invalid-feedback">More example invalid feedback text</div>
+      <!-- phone number -->
+      <div class="mb-3">
+        <label for="validationTextarea" class="form-label">Phone Number</label>
+        <textarea class="form-control" id="validationTextarea" placeholder="00000 000000"
+          required></textarea>
+        <div class="invalid-feedback">
+          Please enter your phone number so we can contact you for more details.
+        </div>
       </div>
       <!-- drop down selection -->
       <div class="mb-3">
         <select class="form-select" required aria-label="select example">
-          <option value="">Open this select menu</option>
-          <option value="1">One</option>
-          <option value="2">Two</option>
-          <option value="3">Three</option>
+          <option value="">Select what kind of event you are booking for</option>
+          <option value="1">Birthday Party</option>
+          <option value="2">Wedding</option>
+          <option value="3">Corporate Event</option>
+          <option value="4">Festival</option>
+          <option value="5">General Party</option>
         </select>
         <div class="invalid-feedback">Example invalid select feedback</div>
       </div>
-
+      <!-- double checkbox -->
+      <label for="validationFormCheck2" class="form-label">Would you like to create your own menu?</label>
+      <div class="form-check">
+        <input type="radio" class="form-check-input" id="validationFormCheck2" name="radio-stacked" required>
+        <label class="form-check-label" for="validationFormCheck2">Yes</label>
+      </div>
+      <div class="form-check mb-3">
+        <input type="radio" class="form-check-input" id="validationFormCheck3" name="radio-stacked" required>
+        <label class="form-check-label" for="validationFormCheck3">No I want the original menu</label>
+        <div class="invalid-feedback">Please select an option.</div>
+      </div>
       <!-- personalised section -->
       <div class="mb-3">
-        <label for="validationTextarea" class="form-label">Textarea</label>
-        <textarea class="form-control" id="validationTextarea" placeholder="Required example textarea"
+        <label for="validationTextarea" class="form-label">If yes, please give detailed descriptions of the drinks you would like.</label>
+        <textarea class="form-control" id="validationTextarea" placeholder="For example: Poppies paradise- Passion fruit liquer, peach liquer, vodka, orange juice, cranberry juice and lemonade"
           required></textarea>
         <div class="invalid-feedback">
-          Please enter a message in the textarea.
+          Please state what drinks you would like.
         </div>
       </div>
-        <!-- terms and conditions -->
-        <div class="col-12">
-          <div class="form-check">
-            <input class="form-check-input is-invalid" type="checkbox" value="" id="invalidCheck3"
-              aria-describedby="invalidCheck3Feedback" required>
-            <label class="form-check-label" for="invalidCheck3">
-              Agree to terms and conditions
-            </label>
-            <div id="invalidCheck3Feedback" class="invalid-feedback">
-              You must agree before submitting.
-            </div>
-          </div>
-        </div>
+
+      <!-- terms & conditions -->
+      <div class="form-check mb-3">
+        <input type="checkbox" class="form-check-input" id="validationFormCheck1" required>
+        <label class="form-check-label" for="validationFormCheck1">Check this box if you are happy to be contacted on the given phone number.</label>
+        <div class="invalid-feedback">Please select this box to continue.</div>
+      </div>
       <!-- submit button -->
       <div class="mb-3">
         <button class="btn btn-primary" type="submit">Submit form</button>
