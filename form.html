@@ -53,29 +53,31 @@
       <div class="flex-container">
         <div class="row">
           <!-- first name -->
-          <div class="col-lg-4">
+          <div class="col-lg-4 col-md-6">
             <label for="validationTextarea" class="form-label">First Name</label>
             <textarea class="form-control" id="validationTextarea" placeholder="" required></textarea>
             <div class="invalid-feedback">
-              Please enter your first name.
+              <p class="fst-italic">Please enter your first name.</p>
+
             </div>
           </div>
           <!-- last name -->
-          <div class="col-lg-4">
+          <div class="col-lg-4 col-md-6">
             <label for="validationTextarea" class="form-label">Last Name</label>
             <textarea class="form-control" id="validationTextarea" placeholder="" required></textarea>
             <div class="invalid-feedback">
-              Please enter your last name.
+              <p class="fst-italic">Please enter your last name.</p>
+
             </div>
           </div>
 
 
           <!-- phone number -->
-          <div class="col-lg-4">
+          <div class="col-lg-4 col-md-6">
             <label for="validationTextarea" class="form-label">Phone Number</label>
             <textarea class="form-control" id="validationTextarea" placeholder="00000 000000" required></textarea>
             <div class="invalid-feedback">
-              Please enter your phone number so we can contact you for more details.
+              <p class="fst-italic"> Please enter your phone number so we can contact you for more details.</p>
             </div>
           </div>
         </div>
@@ -90,7 +92,6 @@
           <option value="4">Festival</option>
           <option value="5">General Party</option>
         </select>
-        <div class="invalid-feedback">Example invalid select feedback</div>
       </div>
       <!-- double checkbox -->
       <label for="validationFormCheck2" class="form-label">Would you like to create your own menu?</label>
@@ -101,7 +102,9 @@
       <div class="form-check mb-3">
         <input type="radio" class="form-check-input" id="validationFormCheck3" name="radio-stacked" required>
         <label class="form-check-label" for="validationFormCheck3">No I want the original menu</label>
-        <div class="invalid-feedback">Please select an option.</div>
+        <div class="invalid-feedback">
+          <p class="fst-italic">Please select an option.</p>
+        </div>
       </div>
       <!-- personalised section -->
       <div class="mb-3">
@@ -112,7 +115,7 @@
           placeholder="For example: Poppies paradise- Passion fruit liquer, peach liquer, vodka, orange juice, cranberry juice and lemonade"
           required></textarea>
         <div class="invalid-feedback">
-          Please state what drinks you would like.
+          <p class="fst-italic">Please state what drinks you would like.</p>
         </div>
       </div>
 
@@ -122,7 +125,9 @@
         <label class="form-check-label" for="validationFormCheck1">Check this box if you are happy to be contacted
           on
           the given phone number.</label>
-        <div class="invalid-feedback">Please select this box to continue.</div>
+        <div class="invalid-feedback">
+          <p class="fst-italic">Please select this box to continue.</p>
+        </div>
       </div>
       <!-- submit button -->
       <div class="mb-3">
