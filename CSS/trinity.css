@@ -1,16 +1,35 @@
-p{
-font-family: "montserrat", sans-serif;
-/* font-weight: 400; */
-font-weight: regular;
+h1 {
+    font-family: "montserrat", sans-serif;
+    font-size: 50px;
+    text-align: center;
 }
 
-label{
+h2 {
+    font-family: "montserrat", sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+p {
+    font-family: "montserrat", sans-serif;
+    font-weight: regular;
+}
+
+label {
     font-family: "montserrat", sans-serif;
     font-size: medium;
     font-weight: bold;
 }
 
-textarea{
+textarea {
     font-family: "montserrat", sans-serif;
     font-style: italic;
+}
+
+select {
+    font-family: "montserrat", sans-serif;
+}
+
+a {
+    font-family: "montserrat", sans-serif;
 }
