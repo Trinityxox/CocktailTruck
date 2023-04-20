@@ -38,7 +38,7 @@ a {
 /* for map */
 .map-container-3{
     overflow:hidden;
-    padding-bottom:56.25%;
+    padding-bottom: 56.25%;
     position:relative;
     height:0;
   }
@@ -49,3 +49,5 @@ a {
     width:100%;
     position:absolute;
   }
+
+  
