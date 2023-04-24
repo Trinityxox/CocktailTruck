@@ -58,4 +58,13 @@ a {
     position:absolute;
   }
 
+  /* footer */
+
+  .footer {
+    padding: 20px;
+  }
+
+  .sm {
+    text-align: end;
+  }
   
