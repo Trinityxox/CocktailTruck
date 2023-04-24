@@ -2,6 +2,10 @@ body {
     background-color: pink;
 }
 
+.navbar navbar-dark  bg-dark navbar-expand-lg {
+    background-color: aqua;
+}
+
 /* for fonts */
 h1 {
     font-family: "montserrat", sans-serif;
