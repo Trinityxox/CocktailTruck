@@ -1,0 +1,57 @@
+body {
+    background-color: pink;
+}
+
+/* for fonts */
+h1 {
+    font-family: "montserrat", sans-serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+h2 {
+    font-family: "montserrat", sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+p {
+    font-family: "montserrat", sans-serif;
+    font-weight: regular;
+}
+
+label {
+    font-family: "montserrat", sans-serif;
+    font-size: medium;
+    font-weight: bold;
+}
+
+textarea {
+    font-family: "montserrat", sans-serif;
+    font-style: italic;
+}
+
+select {
+    font-family: "montserrat", sans-serif;
+}
+
+a {
+    font-family: "montserrat", sans-serif;
+}
+
+/* for map */
+.map-container-3{
+    overflow:hidden;
+    padding-bottom: 56.25%;
+    position:relative;
+    height:0;
+  }
+  .map-container-3 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+  }
+
+  
