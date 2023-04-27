@@ -52,6 +52,11 @@ a {
     padding-right: 60px;
 }
 
+/* calender */
+.calender {
+    padding-left:60px;
+    padding-right: 60px;
+}
 /* for map */
 .map-container-3 {
     overflow: hidden;
