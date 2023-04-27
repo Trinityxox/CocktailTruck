@@ -1,5 +1,5 @@
 body {
-    background-color: pink;
+    background-color: #f2e1cb;
 }
 
 .navbar navbar-dark  bg-dark navbar-expand-lg {
@@ -17,6 +17,14 @@ h2 {
     font-family: "montserrat", sans-serif;
     font-size: 30px;
     text-align: center;
+}
+h3 {
+    font-family: "montserrat", sans-serif;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 50px;
+    padding-left: 20px;
+    
 }
 
 p {
@@ -68,6 +76,7 @@ a {
 
   .am {
     color: #ffffff8c;
+    font-size: 20px;
   }
 
   .sm {
