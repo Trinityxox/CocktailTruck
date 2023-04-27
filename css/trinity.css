@@ -2,10 +2,6 @@ body {
     background-color: #f2e1cb;
 }
 
-.navbar navbar-dark  bg-dark navbar-expand-lg {
-    background-color: aqua;
-}
-
 /* for fonts */
 h1 {
     font-family: "montserrat", sans-serif;
@@ -18,18 +14,17 @@ h2 {
     font-size: 30px;
     text-align: center;
 }
+
 h3 {
     font-family: "montserrat", sans-serif;
     font-size: 20px;
     text-align: center;
-    padding-top: 50px;
-    padding-left: 20px;
-    
+    padding: 20px;
 }
 
 p {
     font-family: "montserrat", sans-serif;
-    
+
 }
 
 label {
@@ -52,35 +47,35 @@ a {
 }
 
 /* for map */
-.map-container-3{
-    overflow:hidden;
+.map-container-3 {
+    overflow: hidden;
     padding-bottom: 55%;
-    position:relative;
-    height:0;
-  }
-  .map-container-3 iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
-  }
+    position: relative;
+    height: 0;
+}
 
-  
-  /* footer */
+.map-container-3 iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
 
-  .footer {
+
+/* footer */
+
+.footer {
     padding: 20px;
-    
-  }
 
-  .am {
+}
+
+.am {
     color: #ffffff8c;
     font-size: 20px;
-  }
+}
 
-  .sm {
+.sm {
     text-align: end;
-    
-  }
-  
+
+}
