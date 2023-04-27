@@ -17,7 +17,7 @@ h2 {
 
 h3 {
     font-family: "montserrat", sans-serif;
-    font-size: 20px;
+    font-size: 25px;
     text-align: center;
     padding: 20px;
 }
@@ -44,6 +44,12 @@ select {
 
 a {
     font-family: "montserrat", sans-serif;
+}
+
+/* menu */
+.menu {
+    padding-left:60px;
+    padding-right: 60px;
 }
 
 /* for map */
